@@ -19,45 +19,23 @@ This project is a **web scraper** that extracts relevant information from variou
 - **dotenv** (Environment variable management)
 - **CORS** (Cross-origin requests handling)
 
-## 📂 Project Structure
-```
-📦 cdp-docs-scraper
-├── 📂 node_modules
-├── 📂 models
-│   ├── Query.js          # Mongoose schema for caching queries
-├── 📂 routes
-│   ├── scraper.js        # API endpoint for querying documentation
-├── 📂 utils
-│   ├── scraperUtil.js    # Puppeteer scraping functions
-├── .env                  # Environment variables (MongoDB URI, etc.)
-├── .gitignore            # Ignored files
-├── package.json          # Dependencies and scripts
-├── server.js             # Main server file
-├── README.md             # Project documentation
-```
 
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Install Dependencies
 ```sh
-git clone https://github.com/your-username/cdp-docs-scraper.git
-cd cdp-docs-scraper
+npm install 
 ```
 
-### 2️⃣ Install Dependencies
-```sh
-npm install
-```
-
-### 3️⃣ Set Up Environment Variables
-Create a `.env` file in the root directory and add:
+### 2️⃣ Set Up Environment Variables
+Create a `.env` file in the root directory and add: 
 ```
 PORT=5001
 MONGO_URI=your_mongodb_connection_string
 ```
 
-### 4️⃣ Start the Server
-```sh
+### 3️⃣ Start the Server  
+```sh 
 npm start
 ```
 Server will run at: `http://localhost:5001`
