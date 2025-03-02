@@ -62,10 +62,7 @@ Server will run at: `http://localhost:5001`
 - Improve query matching with NLP techniques.
 - Implement a frontend UI for user-friendly queries.
 
-## 🛠️ Troubleshooting
-- If MongoDB fails to connect, verify **MONGO_URI** in `.env`.
-- If Puppeteer crashes, add `--no-sandbox` to launch options.
 
-## 📜 License
-This project is licensed under **MIT License**.
+
+
 
